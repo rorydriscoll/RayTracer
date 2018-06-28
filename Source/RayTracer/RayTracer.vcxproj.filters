@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Brdf">
+      <UniqueIdentifier>{C332837C-AF69-840D-5856-6A10446C000F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Integrator">
+      <UniqueIdentifier>{64AD41CF-5065-831C-B96C-5C78A5431E0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{76AD313A-E28C-B0D5-EBA4-3BAC57031737}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Atmosphere.h" />
+    <ClInclude Include="Brdf\Brdf.h">
+      <Filter>Brdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Brdf\FireflyReduction.h">
+      <Filter>Brdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Brdf\Lambert.h">
+      <Filter>Brdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Brdf\LambertBrdf.h">
+      <Filter>Brdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Brdf\Microfacet.h">
+      <Filter>Brdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Brdf\MicrofacetBrdf.h">
+      <Filter>Brdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Brdf\UberBrdf.h">
+      <Filter>Brdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Integrator\DepthIntegrator.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator\DirectIntegrator.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator\Integrator.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator\PathIntegrator.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Medium.h" />
+    <ClInclude Include="PlaneShape.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Sampler.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="SphereShape.h" />
+    <ClInclude Include="Stats.h" />
+    <ClInclude Include="Texture\CheckerboardTexture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\ConstantTexture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\ImageTexture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Atmosphere.cpp" />
+    <ClCompile Include="Brdf\FireflyReduction.cpp">
+      <Filter>Brdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Brdf\Lambert.cpp">
+      <Filter>Brdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Brdf\LambertBrdf.cpp">
+      <Filter>Brdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Brdf\Microfacet.cpp">
+      <Filter>Brdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Brdf\MicrofacetBrdf.cpp">
+      <Filter>Brdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Brdf\UberBrdf.cpp">
+      <Filter>Brdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator\DepthIntegrator.cpp">
+      <Filter>Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator\DirectIntegrator.cpp">
+      <Filter>Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator\PathIntegrator.cpp">
+      <Filter>Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Medium.cpp" />
+    <ClCompile Include="PlaneShape.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="SphereShape.cpp" />
+    <ClCompile Include="Stats.cpp" />
+    <ClCompile Include="Tile.cpp" />
+  </ItemGroup>
+</Project>

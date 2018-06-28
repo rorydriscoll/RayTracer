@@ -1,0 +1,9 @@
+syntax: glob
+
+Output/
+.vs/
+
+*.VC.db
+*.vcxproj.user
+
+Log.txt
