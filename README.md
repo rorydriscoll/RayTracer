@@ -1,6 +1,6 @@
 # RayTracer
 
-![Render](/RayTracer/Render.png)
+![Example Render](Render.png)
 
 Quick path tracer project written in C++ 
 
