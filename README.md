@@ -6,11 +6,11 @@ Quick path tracer project written in C++
 
 Features
 - Lambert bdrf for diffuse
-- Cook-Torrance microfacet brdf for specular
+- Cook-Torrance microfacet bdrf for specular
 - Uses OpenMP for multithreading
 - Single-bounce atmospheric scattering model based on Elek
 - Firefly reduction by limiting the roughness as the path bounces around
-- Improved importance sampling for microfacet brdf
+- Improved importance sampling for microfacet bdrf
 - Anti-aliasing
 - Depth of field
 
