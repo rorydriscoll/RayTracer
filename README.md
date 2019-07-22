@@ -5,7 +5,7 @@
 Quick path tracer project written in C++ 
 
 Features
-- Lambert brdf for diffuse
+- Lambert bdrf for diffuse
 - Cook-Torrance microfacet brdf for specular
 - Uses OpenMP for multithreading
 - Single-bounce atmospheric scattering model based on Elek
